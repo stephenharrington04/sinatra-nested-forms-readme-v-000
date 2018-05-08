@@ -14,6 +14,6 @@ class App < Sinatra::Base
 
     @courses = Courses.all
 
-    erb :studnet
+    erb :student
   end
 end
